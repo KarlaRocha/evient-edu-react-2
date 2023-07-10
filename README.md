@@ -1,5 +1,9 @@
 # Practicando con React
 
+# Ejemplo de Todo List
+
+Un ejemplo completo de una lista de Todo que cumple con todos los requerimientos establecidos.
+
 # Antes de correr el proyecto por primera vez instale los paquetes
 
 ### `yarn`

@@ -5,6 +5,7 @@ import './index.css';
 import { router } from './routes/route';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/js/dist/popover.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
