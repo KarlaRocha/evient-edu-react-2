@@ -4,9 +4,7 @@ import { NewItemModal, Item } from '../components';
 import { Item as TodoItem } from '../interfaces';
 
 export const TodoList = () => {
-  const [data, setData] = useState<TodoItem[]>([
-    { title: 'test', message: 'test message', level: 1 },
-  ]);
+  const [data, setData] = useState<TodoItem[]>([]);
   const [searchText, setSearchText] = useState('');
   const [level, setLevel] = useState(-1);
 
