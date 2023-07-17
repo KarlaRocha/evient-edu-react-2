@@ -1,7 +1,8 @@
+import * as React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 
 import { Home, pagePaths, TodoList } from '../pages';
-import { Root } from '../routes/root';
+import { Root } from './root';
 
 export const router = createBrowserRouter([
   {
